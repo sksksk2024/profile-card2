@@ -15,12 +15,12 @@
 
   <main class="card">
     <div class="card__image">
-      <img class="card__image-bg" src="./images/bg-pattern-card.svg" alt="Background Image">
-      <img class="card__image-person" src="./images/image-victor.jpg" alt="Victor Image">
+      <img class="card__image-bg" src="./images/bg-pattern-card.svg" alt="Background">
+      <img class="card__image-person" src="./images/image-victor.jpg" alt="Victor">
     </div>
     <div class="card__hero">
-      <div class="card__hero-name card--bold">Victor Crest <span class="card__hero-age card--normal">26</span></div>
-      <div class="card__hero-city card--normal">London</div>
+      <h1 class="card__hero-name card--bold" aria-label="The person's name" id="victor">Victor Crest <span aria-label="years old" class="card__hero-age card--normal">26</span></h1>
+      <div class="card__hero-city card--normal" aria-label="where he lives" aria-labelledby="victor">London</div>
     </div>
     <span class="card__bar"></span>
     <div class="card__footer">
